@@ -99,7 +99,7 @@ function age() {
   let daystring = day.toString();
   let monthstring = month.toString();
   let yearstring = year.toString();
-  let ramaindays = 30 - daysinif;
+  let ramaindays = 31 - daysinif;
   let ramainmonths = 11 - monthinif;
   if (day > 29 && month == 2)
     alert(
